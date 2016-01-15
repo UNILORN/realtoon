@@ -1,0 +1,175 @@
+/*================================================
+ *  �w�b�_�[
+ ================================================*/
+ @font-face {
+   font-family: 'myfont';
+   src: url('/font/aaa.woff') format('woff');
+ }
+ IfModule{
+   display:none;
+ }
+
+header {
+  position:relative;
+}
+
+.header-right h1{
+  font-family: 'myfont';
+  font-size:70px;
+  margin-right:5px;
+  padding:15px;
+  float:right;
+}
+
+/*================================================
+ *  �O���[�o���i�r�Q�[�V����
+ ================================================*/
+
+
+
+nav {
+    width:100%;
+    top:0;
+    left:0;
+    padding:5px 0;
+    background:#000;
+    z-index:10;
+    height:40px;
+}
+nav ul {
+    position:relative;
+    float:left;
+    left:48%;
+    margin:0;
+    font-size:20px;
+    padding-top:5px;
+}
+nav li {
+    position:relative;
+    left:-50%;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0 20px;
+}
+nav li a {
+    color:#fff;
+    text-decoration:none;
+}
+nav li a:hover {
+    color:#dfdfdf;
+    text-decoration:underline;;
+}
+.contents{
+  height:620px;
+  border-top:inset 10px #806f5e;
+  border-left:inset 10px #806f5e;
+  border-right:inset 10px #806f5e;
+  border-bottom:inset 10px #806f5e;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#Login{
+  position:absolute;
+  height:200px;
+  width:300px;
+  top:300px;
+  right:30px;
+  box-shadow:inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+  text-align:center;
+  opacity:0.8;
+  padding-top:30px;
+  padding-right:25px;
+  border-radius:50px 50px 50px 50px;
+}
+
+input{
+    box-shadow:inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+}
+
+.contents p{
+padding-left:40px;
+padding-top:25px;
+}
+
+.botan{
+  float:right;
+  padding-bottom:60px;
+  padding-right:30px;
+  position:absolute;
+  top:850px;
+  left:1000px;
+}
+
+.twitter{
+background-color:blue;
+margin-bottom:50px;
+width:120px;
+height:120px;
+border-radius:50%;
+
+}
+
+
+.sousahouhou img{
+   width:100%;
+   height:770px;
+}
+
+.sousahouhou{
+}
+
+.sousahouhou p{
+  top:900px;
+  left:150px;
+  color:white;
+  line-height:150%;
+  position:absolute;
+  line-height:300%;
+  font-size:30px;
+  padding-left:100px;
+}
+.sousahouhou h2{
+  position:absolute;
+  top:700px;
+  left:0px;
+  height:600px;
+  padding-left:370px;
+  font-size:50px;
+color:white;
+margin-top:80px;
+}
+
+.back{
+  position:absolute;
+  top:700px;
+  left:150px;
+  height:600px;
+  border-radius: 50px 50px 50px 50px;
+  width:80%;
+  background-color:rgba(0,0,0,0.8);
+  margin-top:70px;
+}
+
+.footer nav{
+  color:black;
+  width:100%;
+  position:absolute;
+  top:1470px;
+  opacity:1;
+}
+
+.page-top {
+  position:absolute;
+  float:right;
+  top:1250px;
+  right:290px;
+  color:white;
+  font-size:30px;
+}
+
+.c_map{
+  width: auto;
+  height: 620px;
+}
